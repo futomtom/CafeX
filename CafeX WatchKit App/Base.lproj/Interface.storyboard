@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7Ev-is-cT8">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="CafeX_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Order-->
+        <scene sceneID="vgg-In-tkA">
+            <objects>
+                <controller title="Order" hidesWhenLoading="NO" id="fQB-0G-zcl" customClass="ListCafeController" customModule="CafeX_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" spacing="1" id="d9l-WT-2Ce">
+                            <items>
+                                <tableRow identifier="row" id="Wgj-uv-Zqe" customClass="RowCell" customModule="CafeX_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="iRM-Bn-Jtp">
+                                        <items>
+                                            <label alignment="left" text="Label" minimumScaleFactor="0.5" id="XBT-5Q-nt2"/>
+                                            <label alignment="right" text="2.5" textAlignment="right" id="FQI-Lg-oHI">
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="name" destination="XBT-5Q-nt2" id="7LX-xZ-7jA"/>
+                                        <outlet property="price" destination="FQI-Lg-oHI" id="9sm-Mh-3PF"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="d9l-WT-2Ce" id="ktI-zf-Yh1"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="479" y="351"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="w5W-Kg-InW">
+            <objects>
+                <controller id="7Ev-is-cT8" customClass="InterfaceController" customModule="CafeX_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="KzU-sH-wXP">
+                            <items>
+                                <button width="1" alignment="left" title="Order Coffee" id="UJM-JZ-xn6">
+                                    <connections>
+                                        <segue destination="fQB-0G-zcl" kind="push" id="UPB-sk-Ffz"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Order History" id="8j5-S8-DUC"/>
+                        <button width="1" alignment="left" title="Free Coffee" id="5jR-cl-JPh"/>
+                    </items>
+                    <color key="backgroundColor" red="0.23743170499999999" green="0.2188899517" blue="0.34576481580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="200" y="351"/>
+        </scene>
+        <!--Choose Bread-->
+        <scene sceneID="eL8-XX-PBh">
+            <objects>
+                <controller identifier="choosebread" title="Choose Bread" hidesWhenLoading="NO" id="p8s-te-erF" customClass="ChooseBreadController" customModule="CafeX_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" spacing="1" id="UEZ-Q3-RpS">
+                            <items>
+                                <tableRow identifier="row" id="8Az-BM-s8u" customClass="RowCell" customModule="CafeX_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="RlJ-iM-qtq">
+                                        <items>
+                                            <label alignment="left" text="Label" minimumScaleFactor="0.5" id="MGv-X6-6OO"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="name" destination="MGv-X6-6OO" id="r4E-9L-9zQ"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="UEZ-Q3-RpS" id="yRG-co-FyN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="753" y="351"/>
+        </scene>
+    </scenes>
+</document>

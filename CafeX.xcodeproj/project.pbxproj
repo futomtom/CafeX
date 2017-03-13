@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFCF6561E76342F000EAE6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF6551E76342F000EAE6A /* AppDelegate.swift */; };
+		FAFCF6581E76342F000EAE6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF6571E76342F000EAE6A /* ViewController.swift */; };
+		FAFCF65B1E76342F000EAE6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFCF6591E76342F000EAE6A /* Main.storyboard */; };
+		FAFCF65D1E76342F000EAE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFCF65C1E76342F000EAE6A /* Assets.xcassets */; };
+		FAFCF6601E76342F000EAE6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFCF65E1E76342F000EAE6A /* LaunchScreen.storyboard */; };
+		FAFCF6651E76342F000EAE6A /* CafeX WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FAFCF6641E76342F000EAE6A /* CafeX WatchKit App.app */; };
+		FAFCF66B1E76342F000EAE6A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFCF6691E76342F000EAE6A /* Interface.storyboard */; };
+		FAFCF66D1E76342F000EAE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFCF66C1E76342F000EAE6A /* Assets.xcassets */; };
+		FAFCF6741E76342F000EAE6A /* CafeX WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAFCF6731E76342F000EAE6A /* CafeX WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FAFCF67B1E76342F000EAE6A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF67A1E76342F000EAE6A /* InterfaceController.swift */; };
+		FAFCF67D1E76342F000EAE6A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF67C1E76342F000EAE6A /* ExtensionDelegate.swift */; };
+		FAFCF67F1E76342F000EAE6A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF67E1E76342F000EAE6A /* NotificationController.swift */; };
+		FAFCF6811E76342F000EAE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFCF6801E76342F000EAE6A /* Assets.xcassets */; };
+		FAFCF6921E763474000EAE6A /* ListCafeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF6901E763474000EAE6A /* ListCafeController.swift */; };
+		FAFCF6951E764D94000EAE6A /* ChooseBreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF6941E764D94000EAE6A /* ChooseBreadController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFCF6661E76342F000EAE6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFCF64A1E76342F000EAE6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFCF6631E76342F000EAE6A;
+			remoteInfo = "CafeX WatchKit App";
+		};
+		FAFCF6751E76342F000EAE6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFCF64A1E76342F000EAE6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFCF6721E76342F000EAE6A;
+			remoteInfo = "CafeX WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAFCF6881E76342F000EAE6A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FAFCF6741E76342F000EAE6A /* CafeX WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFCF68C1E76342F000EAE6A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FAFCF6651E76342F000EAE6A /* CafeX WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAFCF6521E76342F000EAE6A /* CafeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFCF6551E76342F000EAE6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFCF6571E76342F000EAE6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFCF65A1E76342F000EAE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFCF65C1E76342F000EAE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFCF65F1E76342F000EAE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFCF6611E76342F000EAE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFCF6641E76342F000EAE6A /* CafeX WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CafeX WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFCF66A1E76342F000EAE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FAFCF66C1E76342F000EAE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFCF66E1E76342F000EAE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFCF6731E76342F000EAE6A /* CafeX WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CafeX WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFCF6791E76342F000EAE6A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FAFCF67A1E76342F000EAE6A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FAFCF67C1E76342F000EAE6A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FAFCF67E1E76342F000EAE6A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FAFCF6801E76342F000EAE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFCF6821E76342F000EAE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFCF6901E763474000EAE6A /* ListCafeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCafeController.swift; sourceTree = "<group>"; };
+		FAFCF6941E764D94000EAE6A /* ChooseBreadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseBreadController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFCF64F1E76342F000EAE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFCF6701E76342F000EAE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFCF6491E76342F000EAE6A = {
+			isa = PBXGroup;
+			children = (
+				FAFCF6541E76342F000EAE6A /* CafeX */,
+				FAFCF6681E76342F000EAE6A /* CafeX WatchKit App */,
+				FAFCF6771E76342F000EAE6A /* CafeX WatchKit Extension */,
+				FAFCF6531E76342F000EAE6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFCF6531E76342F000EAE6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCF6521E76342F000EAE6A /* CafeX.app */,
+				FAFCF6641E76342F000EAE6A /* CafeX WatchKit App.app */,
+				FAFCF6731E76342F000EAE6A /* CafeX WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFCF6541E76342F000EAE6A /* CafeX */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCF6551E76342F000EAE6A /* AppDelegate.swift */,
+				FAFCF6571E76342F000EAE6A /* ViewController.swift */,
+				FAFCF6591E76342F000EAE6A /* Main.storyboard */,
+				FAFCF65C1E76342F000EAE6A /* Assets.xcassets */,
+				FAFCF65E1E76342F000EAE6A /* LaunchScreen.storyboard */,
+				FAFCF6611E76342F000EAE6A /* Info.plist */,
+			);
+			path = CafeX;
+			sourceTree = "<group>";
+		};
+		FAFCF6681E76342F000EAE6A /* CafeX WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCF6691E76342F000EAE6A /* Interface.storyboard */,
+				FAFCF66C1E76342F000EAE6A /* Assets.xcassets */,
+				FAFCF66E1E76342F000EAE6A /* Info.plist */,
+			);
+			path = "CafeX WatchKit App";
+			sourceTree = "<group>";
+		};
+		FAFCF6771E76342F000EAE6A /* CafeX WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCF67A1E76342F000EAE6A /* InterfaceController.swift */,
+				FAFCF67C1E76342F000EAE6A /* ExtensionDelegate.swift */,
+				FAFCF6901E763474000EAE6A /* ListCafeController.swift */,
+				FAFCF6941E764D94000EAE6A /* ChooseBreadController.swift */,
+				FAFCF67E1E76342F000EAE6A /* NotificationController.swift */,
+				FAFCF6801E76342F000EAE6A /* Assets.xcassets */,
+				FAFCF6821E76342F000EAE6A /* Info.plist */,
+				FAFCF6781E76342F000EAE6A /* Supporting Files */,
+			);
+			path = "CafeX WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FAFCF6781E76342F000EAE6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCF6791E76342F000EAE6A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFCF6511E76342F000EAE6A /* CafeX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFCF68D1E76342F000EAE6A /* Build configuration list for PBXNativeTarget "CafeX" */;
+			buildPhases = (
+				FAFCF64E1E76342F000EAE6A /* Sources */,
+				FAFCF64F1E76342F000EAE6A /* Frameworks */,
+				FAFCF6501E76342F000EAE6A /* Resources */,
+				FAFCF68C1E76342F000EAE6A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFCF6671E76342F000EAE6A /* PBXTargetDependency */,
+			);
+			name = CafeX;
+			productName = CafeX;
+			productReference = FAFCF6521E76342F000EAE6A /* CafeX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFCF6631E76342F000EAE6A /* CafeX WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFCF6891E76342F000EAE6A /* Build configuration list for PBXNativeTarget "CafeX WatchKit App" */;
+			buildPhases = (
+				FAFCF6621E76342F000EAE6A /* Resources */,
+				FAFCF6881E76342F000EAE6A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFCF6761E76342F000EAE6A /* PBXTargetDependency */,
+			);
+			name = "CafeX WatchKit App";
+			productName = "CafeX WatchKit App";
+			productReference = FAFCF6641E76342F000EAE6A /* CafeX WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FAFCF6721E76342F000EAE6A /* CafeX WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFCF6851E76342F000EAE6A /* Build configuration list for PBXNativeTarget "CafeX WatchKit Extension" */;
+			buildPhases = (
+				FAFCF66F1E76342F000EAE6A /* Sources */,
+				FAFCF6701E76342F000EAE6A /* Frameworks */,
+				FAFCF6711E76342F000EAE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CafeX WatchKit Extension";
+			productName = "CafeX WatchKit Extension";
+			productReference = FAFCF6731E76342F000EAE6A /* CafeX WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFCF64A1E76342F000EAE6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = alex;
+				TargetAttributes = {
+					FAFCF6511E76342F000EAE6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6A7K9VGHXX;
+						ProvisioningStyle = Automatic;
+					};
+					FAFCF6631E76342F000EAE6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6A7K9VGHXX;
+						ProvisioningStyle = Automatic;
+					};
+					FAFCF6721E76342F000EAE6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6A7K9VGHXX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAFCF64D1E76342F000EAE6A /* Build configuration list for PBXProject "CafeX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFCF6491E76342F000EAE6A;
+			productRefGroup = FAFCF6531E76342F000EAE6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFCF6511E76342F000EAE6A /* CafeX */,
+				FAFCF6631E76342F000EAE6A /* CafeX WatchKit App */,
+				FAFCF6721E76342F000EAE6A /* CafeX WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFCF6501E76342F000EAE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFCF6601E76342F000EAE6A /* LaunchScreen.storyboard in Resources */,
+				FAFCF65D1E76342F000EAE6A /* Assets.xcassets in Resources */,
+				FAFCF65B1E76342F000EAE6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFCF6621E76342F000EAE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFCF66D1E76342F000EAE6A /* Assets.xcassets in Resources */,
+				FAFCF66B1E76342F000EAE6A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFCF6711E76342F000EAE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFCF6811E76342F000EAE6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFCF64E1E76342F000EAE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFCF6581E76342F000EAE6A /* ViewController.swift in Sources */,
+				FAFCF6561E76342F000EAE6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFCF66F1E76342F000EAE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFCF67F1E76342F000EAE6A /* NotificationController.swift in Sources */,
+				FAFCF67D1E76342F000EAE6A /* ExtensionDelegate.swift in Sources */,
+				FAFCF6951E764D94000EAE6A /* ChooseBreadController.swift in Sources */,
+				FAFCF6921E763474000EAE6A /* ListCafeController.swift in Sources */,
+				FAFCF67B1E76342F000EAE6A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFCF6671E76342F000EAE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFCF6631E76342F000EAE6A /* CafeX WatchKit App */;
+			targetProxy = FAFCF6661E76342F000EAE6A /* PBXContainerItemProxy */;
+		};
+		FAFCF6761E76342F000EAE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFCF6721E76342F000EAE6A /* CafeX WatchKit Extension */;
+			targetProxy = FAFCF6751E76342F000EAE6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFCF6591E76342F000EAE6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFCF65A1E76342F000EAE6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFCF65E1E76342F000EAE6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFCF65F1E76342F000EAE6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFCF6691E76342F000EAE6A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFCF66A1E76342F000EAE6A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFCF6831E76342F000EAE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFCF6841E76342F000EAE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFCF6861E76342F000EAE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				INFOPLIST_FILE = "CafeX WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.CafeX.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		FAFCF6871E76342F000EAE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				INFOPLIST_FILE = "CafeX WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.CafeX.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		FAFCF68A1E76342F000EAE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				IBSC_MODULE = CafeX_WatchKit_Extension;
+				INFOPLIST_FILE = "CafeX WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.CafeX.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		FAFCF68B1E76342F000EAE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				IBSC_MODULE = CafeX_WatchKit_Extension;
+				INFOPLIST_FILE = "CafeX WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.CafeX.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		FAFCF68E1E76342F000EAE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				INFOPLIST_FILE = CafeX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.CafeX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAFCF68F1E76342F000EAE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				INFOPLIST_FILE = CafeX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.CafeX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFCF64D1E76342F000EAE6A /* Build configuration list for PBXProject "CafeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFCF6831E76342F000EAE6A /* Debug */,
+				FAFCF6841E76342F000EAE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFCF6851E76342F000EAE6A /* Build configuration list for PBXNativeTarget "CafeX WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFCF6861E76342F000EAE6A /* Debug */,
+				FAFCF6871E76342F000EAE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAFCF6891E76342F000EAE6A /* Build configuration list for PBXNativeTarget "CafeX WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFCF68A1E76342F000EAE6A /* Debug */,
+				FAFCF68B1E76342F000EAE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAFCF68D1E76342F000EAE6A /* Build configuration list for PBXNativeTarget "CafeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFCF68E1E76342F000EAE6A /* Debug */,
+				FAFCF68F1E76342F000EAE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFCF64A1E76342F000EAE6A /* Project object */;
+}
