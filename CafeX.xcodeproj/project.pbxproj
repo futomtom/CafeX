@@ -577,6 +577,7 @@
 				FAFCF6871E76342F000EAE6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAFCF6891E76342F000EAE6A /* Build configuration list for PBXNativeTarget "CafeX WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +586,7 @@
 				FAFCF68B1E76342F000EAE6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAFCF68D1E76342F000EAE6A /* Build configuration list for PBXNativeTarget "CafeX" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +595,7 @@
 				FAFCF68F1E76342F000EAE6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
