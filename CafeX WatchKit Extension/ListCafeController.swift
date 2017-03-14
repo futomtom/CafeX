@@ -67,7 +67,7 @@ class ListCafeController: WKInterfaceController {
     }
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
         let context = ["cafe":cafe[rowIndex]]
-        self.pushController(withName: "choosebread", context: context)
+        self.pushController(withName: "pickercontroller", context: context)
     }
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)

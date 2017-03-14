@@ -110,7 +110,23 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="753" y="351"/>
+            <point key="canvasLocation" x="783" y="98"/>
+        </scene>
+        <!--pickercontroller-->
+        <scene sceneID="qoc-3v-rS2">
+            <objects>
+                <controller identifier="pickercontroller" id="osJ-MF-wkj" customClass="PickerController" customModule="CafeX_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Hazelnut" id="Hn7-co-oUA"/>
+                        <picker height="100" alignment="left" focusStyle="sequence" id="PRr-DB-HxK"/>
+                    </items>
+                    <connections>
+                        <outlet property="flavor" destination="Hn7-co-oUA" id="HnZ-SY-lJA"/>
+                        <outlet property="picker" destination="PRr-DB-HxK" id="zek-Qp-Sox"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="723" y="350"/>
         </scene>
     </scenes>
 </document>

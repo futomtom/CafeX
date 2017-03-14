@@ -16,7 +16,7 @@ class LabelCell: NSObject {
 
 class ChooseBreadController: WKInterfaceController {
     
-    let items = ["Bread1","Bread2","Bread3","Bread4",]
+    let items = ["Bean 1","Bean 2","Bean 3","Bean 4",]
     
     @IBOutlet var table: WKInterfaceTable!
     

@@ -53,7 +53,7 @@ class ViewController: UIViewController ,WCSessionDelegate,UITableViewDelegate, U
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        <#code#>
+        return UIView()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

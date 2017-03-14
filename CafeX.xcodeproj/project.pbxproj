@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAE825C61E77B852001A6143 /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE825C51E77B852001A6143 /* PickerController.swift */; };
 		FAFCF6561E76342F000EAE6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF6551E76342F000EAE6A /* AppDelegate.swift */; };
 		FAFCF6581E76342F000EAE6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCF6571E76342F000EAE6A /* ViewController.swift */; };
 		FAFCF65B1E76342F000EAE6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFCF6591E76342F000EAE6A /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FAE825C51E77B852001A6143 /* PickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickerController.swift; path = "CafeX WatchKit Extension/PickerController.swift"; sourceTree = "<group>"; };
 		FAFCF6521E76342F000EAE6A /* CafeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFCF6551E76342F000EAE6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFCF6571E76342F000EAE6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		FAFCF6491E76342F000EAE6A = {
 			isa = PBXGroup;
 			children = (
+				FAE825C51E77B852001A6143 /* PickerController.swift */,
 				FAFCF6541E76342F000EAE6A /* CafeX */,
 				FAFCF6681E76342F000EAE6A /* CafeX WatchKit App */,
 				FAFCF6771E76342F000EAE6A /* CafeX WatchKit Extension */,
@@ -323,6 +326,7 @@
 				FAFCF67F1E76342F000EAE6A /* NotificationController.swift in Sources */,
 				FAFCF67D1E76342F000EAE6A /* ExtensionDelegate.swift in Sources */,
 				FAFCF6951E764D94000EAE6A /* ChooseBreadController.swift in Sources */,
+				FAE825C61E77B852001A6143 /* PickerController.swift in Sources */,
 				FAFCF6921E763474000EAE6A /* ListCafeController.swift in Sources */,
 				FAFCF67B1E76342F000EAE6A /* InterfaceController.swift in Sources */,
 			);
